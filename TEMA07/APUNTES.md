@@ -121,9 +121,11 @@ Separar:
 
 **Clientes**  
 | DNI | nombre | idCiudad |
+|----|--------|--------|
 
 **CodigosPostales**  
-idCiudad | cp | ciudad |
+| idCiudad | cp | ciudad |
+|----|--------|--------|
 
 ---
 
