@@ -125,7 +125,7 @@ Separar:
 
 **CodigosPostales**  
 | idCiudad | cp | ciudad |
-|----|--------|--------|
+|--------|----|--------|
 
 ---
 
