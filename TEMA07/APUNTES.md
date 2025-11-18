@@ -63,7 +63,8 @@ Un atributo depende de otro atributo, no directamente de la clave.
 # 4. Primera Forma Normal (1FN)
 
 ### ✔ Reglas  
-La primera forma normal prohíbe el uso de atributos con múltiples valores
+- No hay listas ni valores repetidos en la misma celda.
+- Una fila por cosa, celdas atómicas.
 
 ### ❌ Ejemplo NO 1FN  
 ![alt text](./img/1FN.png)
@@ -78,8 +79,8 @@ La primera forma normal prohíbe el uso de atributos con múltiples valores
 
 ### ✔ Reglas  
 - Cumple 1FN.  
-- No existen dependencias parciales.  
-- Aplicable **solo** si la PK es compuesta.
+- Aplicable **solo** si la PK es compuesta (dos o más columnas).
+- Prohíbe que haya atributos que dependan solo de una parte de esa clave compuesta
 
 ### ❌ Ejemplo NO 2FN  
 
@@ -106,7 +107,7 @@ Separar en dos tablas:
 
 ### ✔ Reglas  
 - Cumple 2FN.  
-- Ningún atributo debe depender de otro atributo no clave (sin dependencias transitivas).
+- Prohíbe que un atributo no clave dependa de otro atributo no clave (dependencias transitivas).
 
 ### ❌ Ejemplo NO 3FN  
 
